@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.messages {
+    width: 26rem;
+    padding: 1rem;
+    height: 30rem;
+    border: solid 1px lightslategray;
+    overflow: auto;
+}
+
+.message {
+    display: block;
+    background-color: lightsteelblue;
+    padding: 8px;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+}
+
+.author {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.user-input {
+    width: 26rem;
+    margin-top: 6px;
+    position: relative;
+}
+
+#author {
+    width: 8.5rem;
+}
+
+#content {
+    width: 13rem;
+}
+
+button {
+    width: 4rem;
+    position: absolute;
+    right: 0;
+}
